@@ -4,41 +4,84 @@
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header .company_name {
+    font-size: 40px;
+    font-weight: bold;
+    padding-right: 20px;
     display: inline-block;
-    font-size: 48px;
 }
 
-.header h1 .seo {
+header .company_name_portion {
     color: #d9dcd6;
 }
 
-.header div {
+.header_div {
     padding-top: 15px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    /* font-size: 20px; */
+    font-weight: bold;
 }
 
-.header div ul {
+.header_div ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header_div ul li {
     display: inline-block;
     margin-left: 25px;
+}
+
+.header_services_links_label {
+    /* font-size: 20px; */
+    color: black;
+    /* padding-right: 20px; */
+}
+
+body {
+    color: #d9dcd6;
+    background-color: #d9dcd6;
+}
+
+main {
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#benefits_section_main_heading {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.content .content_box .search-engine-optimization .float-left_img_span_text h2, 
+.content .content_box .online-reputation-management .float-right_img_span_text h2, 
+.content .content_box .social-media-marketing .float-left_img_span_text h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 a {
@@ -47,154 +90,232 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 15px;
 }
 
-.hero {
-    height: 800px;
+.hero_image {
+    height: 650px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
     background-position: center;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .content {
-    width: 75%;
     display: inline-block;
-    margin-left: 20px;
+    /* width: 75%; */
 }
 
-.benefits {
+.content_box {    
+    margin-left: 20px;
+    margin-right: 0px;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 200px;
+    min-width: 500px;
+    /* (experiment)
+    vertical-align: middle;
+    clear: none;
+    */
+}
+
+.content_box p {
+    /* (experiment)
+    vertical-align: middle;
+    clear: none;
+    overflow: hidden;
+    */
+}
+
+/*
+.content_box img {
+    max-height: 200px;
+    padding: 20px;
+}
+*/
+
+aside {
+    float: right;
+    clear: both;
+    margin-left: 20px;
     margin-right: 20px;
     padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
+    /* width: 22%; */
+    /* min-width: 200px; */
+    /* max-width: 25%; */
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.content_box, aside {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    overflow: auto;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
+.search-engine-optimization, 
+.online-reputation-management, 
 .social-media-marketing {
+    display: inline-block;
+}
+
+.search-engine-optimization h2, 
+.online-reputation-management h2, 
+.social-media-marketing h2 {
+    font-size: 30px;
+    margin-top: 0px;
     margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
+.search-engine-optimization img, 
+.online-reputation-management img, 
 .social-media-marketing img {
     max-height: 200px;
+    padding: 0px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.search-engine-optimization p, 
+.online-reputation-management p, 
+.social-media-marketing p {
+    vertical-align: middle;
+    overflow: hidden;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.float-left_img_span {
+    float: left;
+    padding-right: 20px;
 }
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.float-left_img_span_text {
+    text-align: left;
+    margin-left: 20px;
+    vertical-align: middle;
 }
 
-.footer {
+.float-right_img_span {
+    float: right;
+    padding-left: 20px;
+}
+
+.float-right_img_span_text {
+    text-align: right;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.future_service_placeholder {
+    margin-top: 50px;
+    text-align: center; 
+    vertical-align: middle;
+    height: 145px;
+}
+
+.benefits_section {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.benefits_section img {
+    inline-size: 50%;
+    position: inline;
+}
+
+.benefit-lead, 
+.benefit-brand, 
+.benefit-cost {
+    margin-bottom: 30px;
+}
+
+footer {
+    color: black;
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+.footer_highlight_text {
+    color: black;
     font-size: 20px;
+}
+
+@media screen and (min-width: 500px) {
+    aside {
+        width: 500px;
+        min-width: 500px;
+        max-width: 500px;
+        margin-left: 20px;
+        padding: 20px
+    }
+    .content {
+        width: 90%;
+    }
+    body {
+        /* background-color: purple; */
+    }
+}
+
+@media screen and (min-width: 750px) {
+    aside {
+        width: 21%;
+        min-width: 150px;
+        max-width: 22%;
+    }
+    .content {
+        width: 73%;
+    }
+    body {
+        /* background-color: red; */
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    aside {
+        width: 22%;
+        min-width: 200px;
+        max-width: 23%;
+    }
+    .content {
+        width: 74%;
+    }
+    .header_div {
+        margin-right: 5px;
+        font-size: 15px;
+    }
+    .header_services_links_label
+    {
+        font-size: 15px;
+        padding-right: 5px;
+    }
+    body {
+        /* background-color: yellow; */
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    aside {
+        width: 22%;
+        min-width: 200px;
+        max-width: 24%;
+    }
+    .content {
+        width: 75%;
+    }
+    .header_div {
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    .header_services_links_label
+    {
+        font-size: 20px;
+        padding-right: 20px;
+    }
+    body {
+        /* background-color: green; */
+    }
 }
