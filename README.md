@@ -14,7 +14,7 @@ The learning of the assignment is good information for creating webpage systems 
 
 Note:
 
-The following URL link is for viewing the code files of the previous "Prework Study Guide" tool bootcamp assignment...which The study guide contains notes about HTML, CSS, Git, and JavaScript.: "https://github.com/Todd-Kridel/prework-study-guide".
+The following URL link is for viewing the code files of the previous "Prework Study Guide" tool bootcamp assignment...which The study guide contains notes about HTML, CSS, Git, and JavaScript: "https://github.com/Todd-Kridel/prework-study-guide".
 
 The following URL link is for viewing the published webpage file of the "Prework Study Guide" bootcamp assignment: "https://todd-kridel.github.io/prework-study-guide/".
 
