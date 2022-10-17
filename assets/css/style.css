@@ -1,3 +1,4 @@
+/* default global starter values */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -11,6 +12,7 @@ header {
     color: #ffffff;
 }
 
+/* the main portion of the main/top company name header text */
 header .company_name {
     font-size: 40px;
     font-weight: bold;
@@ -18,52 +20,63 @@ header .company_name {
     display: inline-block;
 }
 
+/* the special highlight-color portion of the main/top company name header text */
 header .company_name_portion {
     color: #d9dcd6;
 }
 
+/* the section that is for the top menu of section links */
 .header_div {
     padding-top: 15px;
-    /* margin-right: 20px; */
+    /* margin-right: 20px;  This Responsiveness property is processed in a media query at below. */
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    /* font-size: 20px; */
+    /* font-size: 20px;  This Responsiveness property is processed in a media query at below. */
     font-weight: bold;
 }
 
+/* for the list of links of the top menu of sections */
 .header_div ul {
     list-style-type: none;
 }
 
+/* for the list items of links of the top menu of sections */
 .header_div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* a special heading/label for the top menu items that are for the service content sections */
 .header_services_links_label {
-    /* font-size: 20px; */
+    /* font-size: 20px;  This Responsiveness property is processed in a media query at below. */
     color: black;
-    /* padding-right: 20px; */
+    /* padding-right: 20px;  This Responsiveness property is processed in a media query at below. */
 }
 
+/* the overall body section */
 body {
     color: #d9dcd6;
     background-color: #d9dcd6;
 }
 
+/* the main body section */
 main {
+    /* no necessary custom style for this section at the moment */
 }
 
+/* standard heading 1 */
 h1 {
     font-size: 40px;
     margin-bottom: 30px;
 }
 
+/* standard heading 2 */
 h2 {
     font-size: 30px;
     margin-bottom: 20px;
 }
 
+/* sub-heading for the Aside section */
 #benefits_section_main_heading {
     color: black;
     font-weight: bold;
@@ -71,6 +84,7 @@ h2 {
     margin-bottom: 20px;
 }
 
+/* special section heading 2 */
 .content .content_box .search-engine-optimization .float-left_img_span_text h2, 
 .content .content_box .online-reputation-management .float-right_img_span_text h2, 
 .content .content_box .social-media-marketing .float-left_img_span_text h2 {
@@ -79,16 +93,19 @@ h2 {
     font-size: 30px;
 }
 
+/* standard heading 3 */
 h3 {
     font-size: 20px;
     margin-bottom: 10px;
 }
 
+/* to allow for links in the webpage to not have the standard special color and underline; but if necessary that default style can be reactivated by assigning a custom id/name to this style */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* regular section paragraph text */
 p {
     font-size: 15px;
 }
@@ -105,7 +122,7 @@ p {
 
 .content {
     display: inline-block;
-    /* width: 75%; */
+    /* width: 75%;  This Responsiveness property is processed in a media query at below. */
 }
 
 .content_box {    
@@ -115,26 +132,26 @@ p {
     margin-bottom: 20px;
     min-height: 200px;
     min-width: 500px;
-    /* (experiment)
+    /* (an experiment for testing Responsiveness)
     vertical-align: middle;
     clear: none;
     */
 }
 
 .content_box p {
-    /* (experiment)
+    /* (an experiment for testing Responsiveness)
     vertical-align: middle;
     clear: none;
     overflow: hidden;
     */
 }
 
-/*
 .content_box img {
+    /* (an experiment for testing Responsiveness)
     max-height: 200px;
     padding: 20px;
+    */
 }
-*/
 
 aside {
     float: right;
@@ -142,12 +159,13 @@ aside {
     margin-left: 20px;
     margin-right: 20px;
     padding: 20px;
-    /* width: 22%; */
-    /* min-width: 200px; */
-    /* max-width: 25%; */
+    /* width: 22%;  This Responsiveness property is processed in a media query at below. */
+    /* min-width: 200px;  This Responsiveness property is processed in a media query at below. */
+    /* max-width: 25%;  This Responsiveness property is processed in a media query at below. */
     height: 100%;
 }
 
+/* common properties of the 2 sections */
 .content_box, aside {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
@@ -155,12 +173,14 @@ aside {
     overflow: auto;
 }
 
+/* common properties of the 3 sections */
 .search-engine-optimization, 
 .online-reputation-management, 
 .social-media-marketing {
     display: inline-block;
 }
 
+/* common properties of the 3 section headings */
 .search-engine-optimization h2, 
 .online-reputation-management h2, 
 .social-media-marketing h2 {
@@ -169,6 +189,7 @@ aside {
     margin-bottom: 20px;
 }
 
+/* common properties of the 3 sections image elements */
 .search-engine-optimization img, 
 .online-reputation-management img, 
 .social-media-marketing img {
@@ -176,6 +197,7 @@ aside {
     padding: 0px;
 }
 
+/* common properties of the 3 sections paragraph elements */
 .search-engine-optimization p, 
 .online-reputation-management p, 
 .social-media-marketing p {
@@ -183,28 +205,33 @@ aside {
     overflow: hidden;
 }
 
+/* for float-positioning a section image to the left side of a display area */
 .float-left_img_span {
     float: left;
     padding-right: 20px;
 }
 
+/* for the text of a left-float-positioned section image of a display area */
 .float-left_img_span_text {
     text-align: left;
     margin-left: 20px;
     vertical-align: middle;
 }
 
+/* for float-positioning a section image to the right side of a display area */
 .float-right_img_span {
     float: right;
     padding-left: 20px;
 }
 
+/* for the text of a right-float-positioned section image of a display area */
 .float-right_img_span_text {
     text-align: right;
     margin-right: 20px;
     vertical-align: middle;
 }
 
+/* for a bottom-/end- of-page filler section to fill a display gap and to provide an area for some helpful additional functional links */
 .future_service_placeholder {
     margin-top: 50px;
     text-align: center; 
@@ -212,6 +239,7 @@ aside {
     height: 145px;
 }
 
+/* the inner properties of the Aside section */
 .benefits_section {
     padding: 10px;
     width: 100%;
@@ -220,11 +248,13 @@ aside {
     margin-bottom: 30px;
 }
 
+/* the graphical icons of the Aside section */
 .benefits_section img {
     inline-size: 50%;
     position: inline;
 }
 
+/* common properties of the headings of the Aside section */
 .benefit-lead, 
 .benefit-brand, 
 .benefit-cost {
@@ -244,6 +274,7 @@ footer {
     font-size: 20px;
 }
 
+/* a Media Query for responsiveness: Content boxes and the Aside box are arranged into 1 vertical-layout picture-above-text column for device screen widths of at least 500px. */
 @media screen and (min-width: 500px) {
     aside {
         width: 500px;
@@ -256,10 +287,11 @@ footer {
         width: 90%;
     }
     body {
-        /* background-color: purple; */
+        /* background-color: purple;  (an experiment for testing Responsiveness) */
     }
 }
 
+/* a Media Query for responsiveness: Content boxes and the Aside box are arranged into 2 horizontal-layout floating-picture-text columns for device screen widths of at least 750px; initially 2-column but then in a 1-column layout for smaller sizing if necessary/applicable. */
 @media screen and (min-width: 750px) {
     aside {
         width: 21%;
@@ -270,10 +302,11 @@ footer {
         width: 73%;
     }
     body {
-        /* background-color: red; */
+        /* background-color: red;  (an experiment for testing Responsiveness) */
     }
 }
 
+/* a Media Query for responsiveness: Content boxes and the Aside box are arranged into 2 horizontal-layout floating-picture-text columns for device screen widths of at least 1000px. */
 @media screen and (min-width: 1000px) {
     aside {
         width: 22%;
@@ -293,10 +326,11 @@ footer {
         padding-right: 5px;
     }
     body {
-        /* background-color: yellow; */
+        /* background-color: yellow;  (an experiment for testing Responsiveness) */
     }
 }
 
+/* a Media Query for responsiveness: Content boxes and the Aside box are arranged into 2 horizontal-layout floating-picture-text columns for device screen widths of at least 1250px. */
 @media screen and (min-width: 1250px) {
     aside {
         width: 22%;
@@ -316,6 +350,6 @@ footer {
         padding-right: 20px;
     }
     body {
-        /* background-color: green; */
+        /* background-color: green;  (an experiment for testing Responsiveness) */
     }
 }
