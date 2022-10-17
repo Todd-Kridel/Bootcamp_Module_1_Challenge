@@ -31,19 +31,19 @@ SO THAT our own site is optimized for search engines
 [ Acceptance Criteria ]
 
 GIVEN a webpage meets accessibility standards
--
+
 WHEN I view the source code
 * THEN I find semantic HTML elements
--
+
 WHEN I view the structure of the HTML elements
 * THEN I find that the elements follow a logical structure independent of styling and positioning
--
+
 WHEN I view the image elements
 * THEN I find accessible alt attributes
 
 WHEN I view the heading attributes
 * THEN they fall in sequential order
--
+
 WHEN I view the title element
 * THEN I find a concise, descriptive title
 
@@ -91,13 +91,13 @@ To use this sample business webpage that was refactored for purposes of organiza
 
 The following picture shows the appearance of the upgraded refactored webpage:
 
-![an example view of the appearance of the upgraded refactored webpage](assets/Module_1_Challenge_finished_screen.jpg)
+![an example view of the appearance of the upgraded refactored webpage](.assets/images/Module_1_Challenge_finished_screen.jpg)
 
 The following URL is for the GitHub Pages published public view of Todd Kridel's Coding Bootcamp Module 1 Challenge assignment webpage: "https://todd-kridel.github.io/Bootcamp_Module_1_Challenge/".
 
 The following picture shows the appearance of the display problems that occurred when a user attempted to re-size to smaller size the starting-code version of the webpage that was refactored:
 
-![an example view of the appearance of the original display problems of the non-refactored webpage](assets/original_webpage_dispay_errors_when_resizing_the_window.jpg)
+![an example view of the appearance of the original display problems of the non-refactored webpage](.assets/images/original_webpage_dispay_errors_when_resizing_the_window.jpg)
 
 
 ## Credits
