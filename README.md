@@ -53,23 +53,23 @@ The webpage is a basic one that has a title header and a menu bar that links to 
 
 Grading Requirements and Criteria' in addition to satisfying the items of user story and acceptance criteria that are listed at above:
 
->> Technical Acceptance Criteria: 40%
+--> Technical Acceptance Criteria: 40%
 
 * The webpage links all function correctly.
 * The webpage CSS selectors and properties are consolidated and organized to follow semantic structure.
 * The webpage CSS file is properly commented.
 
->> Deployment: 32%
+--> Deployment: 32%
 
 * The webpage is deployed at live GitHub URL and the URL is provided.
 * The webpage loads with no errors.
 * The webpage GitHub URL is submitted and functional; containing all of the involved repository application code files.
 
->> Application Quality: 15%
+--> Application Quality: 15%
 
 * Application resembles (at least 90%) screenshots provided in the Challenge assignment instructions.
 
->> Repository Quality: 13%
+--> Repository Quality: 13%
 
 * The webpage repository has a unique name.
 * The webpage repository follows best coding practices for file structure and naming conventions.
