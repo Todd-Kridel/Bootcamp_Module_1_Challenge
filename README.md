@@ -14,7 +14,7 @@ The learning of the assignment is good information for creating webpage systems 
 
 Note:
 
-The following URL link is for viewing the code files of the previous "Prework Study Guide" tool bootcamp assignment...which The study guide contains notes about HTML, CSS, Git, and JavaScript.: "https://github.com/Todd-Kridel/prework-study-guide".
+The following URL link is for viewing the code files of the previous "Prework Study Guide" tool bootcamp assignment...which The study guide contains notes about HTML, CSS, Git, and JavaScript: "https://github.com/Todd-Kridel/prework-study-guide".
 
 The following URL link is for viewing the published webpage file of the "Prework Study Guide" bootcamp assignment: "https://todd-kridel.github.io/prework-study-guide/".
 
@@ -31,19 +31,19 @@ SO THAT our own site is optimized for search engines
 [ Acceptance Criteria ]
 
 GIVEN a webpage meets accessibility standards
--
+
 WHEN I view the source code
 * THEN I find semantic HTML elements
--
+
 WHEN I view the structure of the HTML elements
 * THEN I find that the elements follow a logical structure independent of styling and positioning
--
+
 WHEN I view the image elements
 * THEN I find accessible alt attributes
 
 WHEN I view the heading attributes
 * THEN they fall in sequential order
--
+
 WHEN I view the title element
 * THEN I find a concise, descriptive title
 
@@ -53,23 +53,23 @@ The webpage is a basic one that has a title header and a menu bar that links to 
 
 Grading Requirements and Criteria' in addition to satisfying the items of user story and acceptance criteria that are listed at above:
 
->> Technical Acceptance Criteria: 40%
+--> Technical Acceptance Criteria: 40%
 
 * The webpage links all function correctly.
 * The webpage CSS selectors and properties are consolidated and organized to follow semantic structure.
 * The webpage CSS file is properly commented.
 
->> Deployment: 32%
+--> Deployment: 32%
 
 * The webpage is deployed at live GitHub URL and the URL is provided.
 * The webpage loads with no errors.
 * The webpage GitHub URL is submitted and functional; containing all of the involved repository application code files.
 
->> Application Quality: 15%
+--> Application Quality: 15%
 
 * Application resembles (at least 90%) screenshots provided in the Challenge assignment instructions.
 
->> Repository Quality: 13%
+--> Repository Quality: 13%
 
 * The webpage repository has a unique name.
 * The webpage repository follows best coding practices for file structure and naming conventions.
@@ -91,13 +91,13 @@ To use this sample business webpage that was refactored for purposes of organiza
 
 The following picture shows the appearance of the upgraded refactored webpage:
 
-![an example view of the appearance of the upgraded refactored webpage](assets/Module_1_Challenge_finished_screen.jpg)
+![an example view of the appearance of the upgraded refactored webpage](assets/images/Module_1_Challenge_finished_screen.jpg)
 
 The following URL is for the GitHub Pages published public view of Todd Kridel's Coding Bootcamp Module 1 Challenge assignment webpage: "https://todd-kridel.github.io/Bootcamp_Module_1_Challenge/".
 
 The following picture shows the appearance of the display problems that occurred when a user attempted to re-size to smaller size the starting-code version of the webpage that was refactored:
 
-![an example view of the appearance of the original display problems of the non-refactored webpage](assets/original_webpage_dispay_errors_when_resizing_the_window.jpg)
+![an example view of the appearance of the original display problems of the non-refactored webpage](assets/images/original_webpage_dispay_errors_when_resizing_the_window.jpg)
 
 
 ## Credits
